@@ -1,0 +1,255 @@
+/*--Header-----------------------------------------------------------*/
+#header {
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#core-header {
+	height: 50px;
+}
+/*        헤더 왼쪽 -----------------------------------------------------------*/
+#main-navi {
+	width: 100%;
+	height: 100%;
+}
+
+#main-navi-img {
+	width: 20px;
+	float: left;
+	margin-top: 14px;
+	z-index: 1;
+}
+
+#main-menu {
+	width: 150px;
+	position: absolute;
+	margin-top: 50px;
+	line-height: 40px;
+	padding: 0;
+	border-top: 0px;
+	background-color: white;
+	z-index: 2;
+	text-align: left;
+}
+
+#main-menu>li {
+	list-style-type: none;
+	margin: 0;
+	display: none;
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+	overflow: hidden;
+}
+
+#main-menu>li:nth-child(1) {
+	border-top: 1px solid #CCCCCC;
+	background-color: #e8e8e8;
+	font-weight: 800;
+}
+
+#main-menu>li:nth-child(1)>a {
+	font-weight: 700;
+}
+
+#main-menu>li>a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	transition: 0.1s;
+	font-weight: 500;
+}
+
+#logo-img {
+	width: 90px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 6px;
+	position: relative;
+}
+
+#main-menu>li>a:hover {
+	background-color: #CCCCCC;
+}
+
+#home:hover {
+	cursor: pointer;
+}
+/*        말풍선*/
+#tooltiptext-main {
+	visibility: hidden;
+	width: 80px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* 말풍선 위치 */
+	position: absolute;
+	margin-top: 50px;
+	z-index: 1;
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+#tooltiptext-side {
+	visibility: hidden;
+	width: 80px;
+	background-color: black;;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* 말풍선 위치 */
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 95%;
+	z-index: 1;
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+#tooltiptext-user {
+	visibility: hidden;
+	width: 80px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* 말풍선 위치 */
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 102%;
+	z-index: 1;
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+#tooltiptext-search {
+	visibility: hidden;
+	width: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* 말풍선 위치 */
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 87%;
+	z-index: 1;
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+/*        헤더 오른쪽 -----------------------------------------------------------*/
+#side-navi {
+	width: 100%;
+	margin-top: 13px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#menu-img2 {
+	margin-top: 5px;
+	width: 20px;
+	float: left;
+}
+
+#login-box {
+	width: 27px;
+	margin-top: 0px;
+	margin-left: 20px;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+	font-size: 11px;
+	border-radius: 3px;
+	letter-spacing: 5px;
+	transition: 0.2s;
+	color: #4D4D4D;
+}
+
+#side-navi>a {
+	text-decoration: none;
+	color: black;
+}
+
+#side-menu {
+	width: 150px;
+	position: absolute;
+	margin-top: 7px;
+	line-height: 40px;
+	padding: 0;
+	border-top: 0px;
+	background-color: white;
+	z-index: 2;
+	text-align: left;
+}
+
+#side-menu>li {
+	list-style-type: none;
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+	margin: 0;
+	display: none;
+	overflow: hidden;
+}
+
+#side-menu>li:nth-child(1) {
+	border-top: 1px solid #CCCCCC;
+}
+
+#side-menu>li>a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	transition: 0.1s;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+#side-menu>li>a:hover {
+	background-color: #e8e8e8;
+}
+
+/*        헤더 가운데 -----------------------------------------------------------*/
+#search-box {
+	margin-top: 10px;
+}
+
+#searchForm {
+	width: 100%;
+	height: 30px;
+}
+
+#search-input {
+	width: 90%;
+	height: 30px;
+	border: 0;
+	margin: 0;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border: 1px solid #CCCCCC;
+}
+
+#search-btn {
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	border: 0;
+	border: 1px solid #CCCCCC;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #e8e8e8;
+	transition: 0.2s;
+}
+
+#search-img {
+	width: 17px;
+}
+
+#search-btn:hover {
+	background-color: #D9D9D9;
+}

@@ -1,0 +1,80 @@
+#content div {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#content {
+	margin: 50px 100px;
+}
+
+.title {
+	height: 100px;
+	text-align: center;
+	margin: auto;
+	line-height: 60px;
+	font-size: 50px;
+}
+
+.c-name {
+	background-color: #CDECFA;
+	border-bottom: 2px solid #28AEFF;
+}
+
+.line-name {
+	height: 45px;
+	line-height: 40px;
+}
+
+.line-content {
+	height: 35px;
+	line-height: 32px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.line-content:hover {
+	background-color: #dcdcdc;
+}
+
+.write {
+	text-align: right;
+}
+
+.write>div {
+	height: 40px;
+	margin-top: 5px;
+}
+
+.number>div>nav>ul {
+	margin: 10px 0;
+}
+
+.number>div>nav {
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+	<!--
+	어떻게
+	가운데로할지..?
+	다
+	해봤는데
+	안돼..
+	-->
+}
+
+.searchBar {
+	text-align: right;
+	margin: 5px 0;
+}
+
+#search {
+	width: 200px;
+	height: 25px;
+}
+
+#searchBtn {
+	width: 50px;
+	height: 25px;
+	padding: 0;
+	margin-top: -5px;
+}

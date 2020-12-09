@@ -1,0 +1,29 @@
+#contents div {
+        text-align: center;
+    }
+    /*--contents--*/
+    #core-contents-1 {
+        height: 800px;
+    }
+
+    #core-contents-1 input {
+        display: block;
+        height: 50px;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    #core-contents-1 a {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    #core-contents-1 span {
+        color: rgba(128,128,128, 0.5);
+        padding: 0px 5px;
+    }
+
+    #core-contents-1 a:hover {
+        text-decoration: none;
+        color: blue;
+    }
