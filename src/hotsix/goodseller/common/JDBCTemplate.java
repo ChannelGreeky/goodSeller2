@@ -66,9 +66,12 @@ public class JDBCTemplate {
 	public static void rollback(Connection conn) {
 		try {
 			conn.rollback();
+			if(true) {
+			}else {
+			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	]
 }
